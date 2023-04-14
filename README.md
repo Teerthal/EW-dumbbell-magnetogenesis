@@ -6,10 +6,12 @@ Temporary project files
 
 Document.pdf (documentation is work in progress) -> document describes the algorithms being developed to simulate collapsing monopole-antimonopole pairs
 
-Folder random_gen:
+Folder A_gen:
 
 Scripts to populate a cubic lattice with a Higgs field distribution by randomly picking t'Hoft angles. Modules include routines to compute magnetic field directly and the gauge potential directly and the curl, magnetic field spectrum according to the prescription in Yiyang et al. Experimental plotting scripts to plot enseble averaged and binned spectra are included along with sample plots from 120 runs run of (128+6)^3 lattices. +6 is required for the ghost zones in the pencil-code.
-Use central differences for derivatives
+A sample pencil code build is also included that illustrates how to read the data.
+A simple standalone fortran code to demonstrate how to read the data.
+Uses central differences for derivatives.
 
 Folder topological_collapsing_scheme:
 
