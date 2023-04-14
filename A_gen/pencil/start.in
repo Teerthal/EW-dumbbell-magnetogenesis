@@ -1,0 +1,22 @@
+!  -*-f90-*-  (for Emacs)    vim:set filetype=fortran:  (for vim)
+!
+! Initialisation parameters for magnetic flux rings
+!
+&init_pars
+  cvsid='$Id$'
+  lwrite_aux=T                  ! write out auxiliary variables
+/
+&initial_condition_pars
+  EWFile = "/scratch/tpatel28/topo_mag/dump.txt"
+/
+&eos_init_pars
+  gamma=5./3. ! isothermal
+/
+&hydro_init_pars
+/
+&density_init_pars
+/
+&magnetic_init_pars
+/
+&radiation_init_pars
+/
