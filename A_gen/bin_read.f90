@@ -1,4 +1,6 @@
-PROGRAM read_saved_python
+!Sample fortran script that demonstrates reading the
+!vector potential data
+PROGRAM read_A
   IMPLICIT NONE
 
   ! INTEGER(KIND=8),ALLOCATABLE :: matrix(:,:,:,:)
@@ -6,8 +8,8 @@ PROGRAM read_saved_python
   INTEGER :: Nx, Ny, Nz
   character(len=100) :: filepath
   INTEGER :: i
-  filepath = "/home/cuddlypuff/Dropbox (ASU)/dumbell_MHD&
-            &/topological_collapse/random_gen/dump.txt"
+  filepath = "path/to/data"
+            !Insert absolute path to data here!
   Nx = 134
   Ny = 134
   Nz = 134
