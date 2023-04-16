@@ -13,6 +13,10 @@ A sample pencil code build is also included that illustrates how to read the dat
 A simple standalone fortran code to demonstrate how to read the data.
 Uses central differences for derivatives.
 
+Plot of the magnetic field power spectrum(E_M) from the test ensemble of 120 realizations of (128+6)^3 boxes.
+![enemb_spectra](https://user-images.githubusercontent.com/95438989/232335931-eba68d3b-1929-4332-b7a9-2a02d5028cbe.png)
+
+
 Folder topological_collapsing_scheme:
 
 Julia and Python hybrid scripts that emulate collapsing monopole-antimonopole pairs along strings
