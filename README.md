@@ -1,8 +1,4 @@
 # EW dumbbell magnetogenesis
-Temporary project files
-
-!Most results from these code are not fully tested and poorly documented with occasional use of horrible syntax
-!Detailed code documentation under construction
 
 Document.pdf (documentation is work in progress) -> document describes the algorithms being developed to simulate collapsing monopole-antimonopole pairs
 
